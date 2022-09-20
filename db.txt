@@ -1,0 +1,3 @@
+create database ecom;
+
+create table signup(id bigint not null primary key auto_increment,username varchar(300),password varchar(300),name varchar(300),email varchar(300),phone varchar(300),status varchar(300));
